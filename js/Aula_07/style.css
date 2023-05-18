@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(25, 97, 186);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+img {
+    width: 100px;
+}
+main{
+    background-color: rgb(65, 167, 195);
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+}
+footer{
+    background-color: rgb(126, 9, 9);
+    color: rgb(231, 247, 246);
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+nav{
+    background-color: rgb(11, 112, 135);
+    width: 300px;
+}
+.paige-container{
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+}

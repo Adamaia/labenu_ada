@@ -1,0 +1,55 @@
+header{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    top: 0;
+    margin: 0mm;
+    width: 100%;
+    position: fixed;
+    font: size 20px; ;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+}
+main div{ 
+    background-color: rgb(27, 117, 159);
+    position: sticky;
+    top: 0;
+    height:100%;
+    height: 100%;
+    margin: 0mm;
+    display: flex;
+}
+p{
+    color: white;
+    text-align: center;
+}
+ 
+h3{
+    color: white;
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    color: rgb(242, 175, 51);
+    background-color: rgb(255, 210, 125);
+    display: inline;
+    text-align: center;
+}
+h2{
+    color: rgb(185, 132, 33);
+    text-align: center;
+}
+section{
+    background-color: rgb(244, 244, 145);
+    position: sticky;
+    top: 0%;
+    height: 700px;
+    margin: 0mm;
+}

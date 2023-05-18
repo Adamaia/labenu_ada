@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display:flex;
+
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 0 2%;
+}
+header {
+    padding: 20px 0;
+    background-color:rgb(29, 46, 83) ;
+}
+
+.logo {
+    max-width: 50px; max-height: 30px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+}
+body {
+    background-color: rgb(207, 200, 200);
+}
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.image {
+      height: 60vh;
+      margin: 50px;
+}
+px
+
+.extras {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.sobre {
+    margin: 60px;
+    color: white;
+    background-color: rgb(29, 46, 83);
+    text-align: center;
+    padding: 50px;
+}
+
+.share {
+    display: flex;
+    justify-content: end;
+}
+ .compartilhado {
+    margin: 80px; 
+ }
+
+ .center {
+    align-items: center;
+    background-color: rgb(29, 46, 83);
+    color: whitesmoke;
+    margin: 40px;
+ }
+
+button {
+
+ 
+    align-items: center;
+    margin: 30px;
+    background-color: black;
+    padding: 18px;
+    color: whitesmoke;
+}
+
+.lonely {
+    display: flex;
+    justify-content: start;
+}
+
+.naom {
+    width: 90vh;
+    margin: 60px;
+}
+
+.text {
+    background-color:rgb(29, 46, 83) ;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 50px;
+}
+.life {
+    display: flex;
+    justify-content: center;
+}
+
+.mss {
+    width: 50vh;
+    margin: 100px;
+}
+.text2 {
+    align-items: center;
+    color: rgb(137, 231, 234);
+    background-color: rgb(24, 38, 69);
+    padding: 130px;
+    margin: 150px;
+}
+footer {
+     background-color: rgb(24, 38, 69);
+     color: whitesmoke;
+}

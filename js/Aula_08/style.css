@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    /* grid-template-rows:1fr ; */
+    height: 100vh;
+}
+
+main {
+   display: grid;
+   grid-template-columns: repeat(3, 250px) ;
+   grid-template-rows: repeat(2, 300px);
+   row-gap: 10px;
+   column-gap: 10px;
+   margin: 5px;
+}
+
+
+
+
+.card-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 5px darkgray ;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+header {
+    background-color: rgb(144, 57, 225);
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    grid-column: 1/-1;
+}
+.icone-e-texto {
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav {
+    background-color: rgb(215, 173, 255);
+    width: 200px;
+    padding: 8px;
+    height: 100vh;
+}
+
+.icone {
+    width: 40px;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 38, 106);
+    color: white;
+    grid-column: 1/-1;
+
+}
+.botao-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
+
+.imagem-card {
+    width: 50px;
+}
